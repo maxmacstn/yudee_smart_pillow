@@ -1,0 +1,15 @@
+{
+  "domain": "yudee_smart_pillow",
+  "name": "YUDEE Smart Pillow",
+  "config_flow": true,
+  "bluetooth": [
+    {
+      "connectable": false,
+      "local_name": "Hi-MLILY*"
+    }
+  ],
+  "dependencies": ["bluetooth"],
+  "codeowners": ["@maxmacstn"],
+  "iot_class": "cloud_polling",
+  "version": "0.1"
+}

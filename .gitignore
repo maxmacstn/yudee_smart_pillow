@@ -1,0 +1,8 @@
+
+.DS_Store
+
+yudee_smart_pillow/__pycache__/
+
+yudee_smart_pillow/test_credentials.py
+
+yudee_smart_pillow/smart_pillow/__pycache__/
