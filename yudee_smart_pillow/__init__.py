@@ -22,7 +22,7 @@ import async_timeout
 
 from .const import COORDINATORS, DATA_UPDATED, DOMAIN
 
-PLATFORMS: list[Platform] = [Platform.BINARY_SENSOR, Platform.SENSOR, Platform.BUTTON]
+PLATFORMS: list[Platform] = [ Platform.SENSOR, Platform.BUTTON]
 
 _LOGGER = logging.getLogger(__name__)
 
